@@ -48,7 +48,7 @@ Throws 400 error if not valid input or if a server with the given name already e
 
 ## Update a server
 
-'POST' call to '/servers/<server_name>' with 'Content-Type: application.json'
+'PUT' call to '/servers/<server_name>' with 'Content-Type: application.json'
 
 Arguments:
 - '"name":string' - new name of the server
@@ -80,18 +80,6 @@ Output:
 }
 ```
 Throws 404 error if not found
-
-## Empty the database
-
-'DELETE' call to '/servers'
-
-Output:
-
-```json
-{
-    "Result": "Succeess"
-}
-```
 
 
 
