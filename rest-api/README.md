@@ -23,6 +23,7 @@ Outputs a list of the current servers in the database (key = 'servers'). Example
             "ipaddress":"7.72.881.1",
             "other":[{"inUse": "True"}]
         }
+    ]
 }
 ```
 
