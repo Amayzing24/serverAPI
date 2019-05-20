@@ -8,7 +8,7 @@ Output:
 
 ```json
 {
-    "servers": "List of current survers in the database in type dict"
+    "servers": [List of current servers in the database in types dict]
 }
 ```
 
@@ -20,7 +20,7 @@ Output:
 
 ```json
 {
-    "server": "Server called for by server_name in type dict"
+    "server": {Server called for by server_name in type dict}
 }
 ```
 Throws 404 error if not found
@@ -40,7 +40,7 @@ Output:
 
 ```json
 {
-    "server": "New server created in type dict"
+    "server": {New server created in type dict}
 }
 ```
 Gives 201 success code
@@ -62,7 +62,7 @@ Output:
 
 ```json
 {
-    "server": "Content of the updated server"
+    "server": {Content of the updated server}
 }
 ```
 Throws 404 error if not found
@@ -76,7 +76,7 @@ Output:
 
 ```json
 {
-    "Result": "Succeess"
+    "Result": True
 }
 ```
 Throws 404 error if not found
