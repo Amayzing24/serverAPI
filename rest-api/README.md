@@ -70,7 +70,7 @@ Outputs the server created (key = "server"). Example:
     }
 }
 ```
-Gives 201 success code
+Gives 201 success code,
 Throws 400 error if not valid input or if a server with the given name already exists
 
 ## Update a server
@@ -98,7 +98,7 @@ Outputs the content of the updated server (key = "server). Example:
     }
 }
 ```
-Throws 404 error if not found
+Throws 404 error if not found,
 Throws 400 error if not valid input
 
 ## Delete a server
