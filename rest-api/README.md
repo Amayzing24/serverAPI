@@ -21,7 +21,7 @@ Outputs a list of the current servers in the database (key = 'servers'). Example
             "type":"Proxy Server",
             "location":"Los Angeles",
             "ipaddress":"7.72.881.1",
-            "other":[{"inUse": True}]
+            "other":[{"inUse": "True"}]
         }
 }
 ```
@@ -108,7 +108,7 @@ Outputs True (key = "result") to indicate the server was deleted:
 
 ```json
 {
-    "result": True
+    "result": "True"
 }
 ```
 Throws 404 error if not found
